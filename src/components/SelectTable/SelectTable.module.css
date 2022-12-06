@@ -1,0 +1,24 @@
+.wrapper {
+    position: relative;
+}
+
+.tables {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.table {
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    background: #a0a0a0;
+    transition: all .2s;
+}
+
+.table:hover {
+    background: #bababa;
+}
+
+.active {
+    background: #bababa;
+}

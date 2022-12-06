@@ -1,0 +1,10 @@
+.header {
+    background: #3F3F3F;
+    color: #fff;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+    width: 100%;
+    padding: 20px;
+    max-height: 40px;
+}

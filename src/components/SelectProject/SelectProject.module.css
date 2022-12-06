@@ -1,0 +1,46 @@
+.wrapper {
+    position: relative;
+}
+
+.selectProject {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 12px;
+}
+
+.projectName {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 19px;
+}
+
+.selectProjectModal {
+    position: absolute;
+    background: #ffffff;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.01);
+    border-radius: 5px;
+    width: 90%;
+    margin-left: calc(100% - 95%);
+    overflow: hidden;
+    margin-top: 10px;
+    z-index: 20;
+}
+
+.selectProjectLink {
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: #3F3F3F;
+    transition: background .2s;
+    padding: 5px;
+}
+
+.selectProjectLink:hover {
+    background: #d5d5d5;
+
+}
