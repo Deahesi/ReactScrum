@@ -32,7 +32,9 @@ export default function Layout({children}: LayoutProps) {
         <div className={styles.layout}>
             <Header className={styles.header}/>
             <Sidebar projects={projectState} loading={loading} className={styles.sidebar}/>
-            {children}
+            <div className={styles.page}>
+                {children}
+            </div>
         </div>
     )
 }

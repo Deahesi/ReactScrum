@@ -1,5 +1,21 @@
 .layout {
     display: grid;
     grid-template-columns: 1fr auto;
+    grid-template-rows: auto 1fr;
     min-height: 100vh;
+}
+
+.header {
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.sidebar {
+    grid-row-start: 1;
+    grid-row-end: -1;
+}
+
+.page {
+    grid-column-start: 1;
+    grid-column-end: 2;
 }

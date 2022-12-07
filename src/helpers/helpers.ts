@@ -39,6 +39,7 @@ export const ApiRoutes = {
         get: process.env.REACT_APP_SERVER + '/projects'
     },
     tables: {
-        get: process.env.REACT_APP_SERVER + '/tables'
+        get: process.env.REACT_APP_SERVER + '/tables',
+        get_list: process.env.REACT_APP_SERVER + '/tables/lists',
     }
 }

@@ -1,5 +1,7 @@
 export interface ITask {
     description: string
+    id: number
+    list_id: number
 }
 
 export interface ITaskList {
